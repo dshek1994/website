@@ -1,0 +1,19 @@
+.flexMe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexMe li{
+    width: 100px; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexMe li img{
+    width: 10%; 
+    height: 10%;
+}
